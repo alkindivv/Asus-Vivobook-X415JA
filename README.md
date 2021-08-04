@@ -83,6 +83,7 @@ This is my complete EFI folder to be used for hackintosh on Asus Vivobook X415JA
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
 | Builtin WiFI Realtek 8821CE Wirelees LAN                 | ❌   | Unsupported |
+| HDMI out and Audio                | ❌   | Common Problem with IceLake Chipset |
 
 
 </details>
@@ -93,8 +94,8 @@ This is my complete EFI folder to be used for hackintosh on Asus Vivobook X415JA
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
-| Express Card Slot                    | ❌   | I don't have one of Express Card. |
-| miniDP Port                          | ❌   | I don't have Converter or miniDP Monitor. |
+| Realtek USB Card Reader                | ❌   | I don't have one of Card Reader. |
+
 
 
 </details>
