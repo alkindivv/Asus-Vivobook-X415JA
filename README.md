@@ -48,17 +48,15 @@ This is my complete EFI folder to be used for hackintosh on Asus Vivobook X415JA
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
 | QE/CI Enabled Graphics               | ✅   | Config Inject + WhateverGreen.kext |
-| Brightness Adjustments               | ✅   | PNLF SSDT Patch + WhateverGreen.kext |
-| CPU Power Management               | ✅   | SSDT Patch |
-| Realtek ALC256 Audio out             | ✅   | HDEF SSDT Patch + AppleALC.kext |
-| Trackpad ASUE1409 and Track Point     | ✅   | VoodoI2C.kext |
-| FN Keys                 | ✅   | SSDT Patch |
-| Battery Indicator                    | ✅   | ECEnabler.kext |
-| WebCam                               | ✅   | Native |
-| USB2.0 Port + USB 3.0 Port           | ✅   | SSDT Patch |
-| Sleep and Wake                       | ✅   | SSDT Patch |
-| Mac App Store Access                 | ✅   | Native |
-| iMessage and FaceTime                | ✅   | if you are using MLB and ROM from original Macs |
+| Brightness Adjustments               | ✅   | DSDT Patch + WhateverGreen.kext |
+| CPU Power Management               | ✅   | CPUFriend.kext Costum |
+| Realtek ALC256 Audio out             | ✅   | DSDT Patch + AppleALC.kext + layout Id |
+| Trackpad ASUE1409 and Track Point     | ✅   | VoodoI2C.kext + VoodoI2CHID.kext |
+| FN Keys                 | ✅   | DSDT Patch |
+| Keyboard backlight      | ✅ | AsusSMC.kext + DSDT Patch |
+| Battery Indicator                    | ✅   | ECEnabler.kext + Lilu.kext |
+| USB 3.0 and Type-C         | ✅   | SSDT Patch |
+| Sleep,Restart and Shutdown                      | ✅   | DSDT Patch |
 
 </details>
 
@@ -83,7 +81,9 @@ This is my complete EFI folder to be used for hackintosh on Asus Vivobook X415JA
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
 | Builtin WiFI Realtek 8821CE Wirelees LAN                 | ❌   | Unsupported |
+| Builtin WebCam              | ❌   | Asus laptop have some bugs with Webcam in macOS |
 | HDMI out and Audio                | ❌   | Common Problem with IceLake Chipset |
+| AppStores                        | ❌ | Depends on Network Controller adn need to set BSD name to en0 (this laptop doesnt have built in ethernet and the WiFi card doesnt supprted, so Mac Appstore will not gonna work on this Device).
 
 
 </details>
