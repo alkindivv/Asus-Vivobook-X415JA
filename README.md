@@ -1,6 +1,6 @@
 # Hackintosh-Asus-Vivoobook-X415JA
 
-[![AsusVivobook](https://img.shields.io/badge/ThinkPad-X230-blue.svg)](https://www.jakartanotebook.com/asus-vivobook-x415ja-a416-bv311ts-intel-core-i3-1005g1-4gb-1tb-14-inch-windows-10-silver)
+[![AsusVivobook](https://img.shields.io/badge/Asus-X415JA0-blue.svg)](https://www.jakartanotebook.com/asus-vivobook-x415ja-a416-bv311ts-intel-core-i3-1005g1-4gb-1tb-14-inch-windows-10-silver)
 [![MacOS High Siera](https://img.shields.io/badge/HighSiera-10.15-red.svg)](https://www.apple.com/)
 [![MacOS Mojave](https://img.shields.io/badge/Mojave-10.14-red.svg)](https://www.apple.com/)
 [![MacOS Catalina](https://img.shields.io/badge/Catalina-10.15-red.svg)](https://www.apple.com/)
